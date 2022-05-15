@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600></canvas>
+      <canvas id="unity-canvas" width=1920 height=1080></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/webgl roque.loader.js";
+      var loaderUrl = buildUrl + "/seanroque00.github.io.loader.js";
       var config = {
-        dataUrl: buildUrl + "/webgl roque.data",
-        frameworkUrl: buildUrl + "/webgl roque.framework.js",
-        codeUrl: buildUrl + "/webgl roque.wasm",
+        dataUrl: buildUrl + "/seanroque00.github.io.data",
+        frameworkUrl: buildUrl + "/seanroque00.github.io.framework.js",
+        codeUrl: buildUrl + "/seanroque00.github.io.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "CIS",
@@ -82,8 +82,8 @@
         config.devicePixelRatio = 1;
         unityShowBanner('WebGL builds are not supported on mobile devices.');
       } else {
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1920px";
+        canvas.style.height = "1080px";
       }
       loadingBar.style.display = "block";
 
